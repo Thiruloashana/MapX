@@ -1,0 +1,36 @@
+<!DOCTYPE html> {%load static%} <html> 
+<head>
+	
+	<link rel='stylesheet' type='text/css' media='screen' href='{%static 'css/stylee.css'%}'>
+		
+	<style>
+	div{
+  	  width: 1500px;
+	  height: 36px;
+	  margin: auto;
+  	  background-color:lightseagreen;
+	 }
+
+	
+	.Maps-button{
+	 background-color:black;
+	 color: white;
+	 border: none;
+	 height:36px;
+	 width: 105px;
+	 border-radius: 2px;
+	 cursor: pointer;
+	 margin-right: 8px;
+	 text-align: centre;
+}
+</style>
+</head>
+<body id='bg'style="background-image: url('{%static 'image/iconn.png'%}');">
+	<div>
+		<a class="nav-link " href="{% url 'index' %}"><span class="sr-only"> <button class="Maps-button">  MAPS  </button></span></a>
+	</div>
+	<h1 style="color:grey;font-family:britannic bold;position:relative; left:260px; top:180px;font-size:600%"> MAPX </h1>>
+	<h2 style="color:grey;font-family:calibri;position:relative; left:430px;top:60px;font-size:240%">locator</h2>
+</body>
+</html>
+
